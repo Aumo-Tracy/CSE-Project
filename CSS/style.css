@@ -1,0 +1,62 @@
+/* reset and basics*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'segoe UI',sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*navbar sparkle*/
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* headings*/
+h1,h2,h3 {
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+}
+
+/*cards*/
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.5);
+    border-radius: 16px;
+}
+
+/*buttons*/
+.btn-primary {
+    background-color: #1e40af;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+/*forms*/
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0, 0, 0.3);
+}
+
+/*footer*/
+footer {
+    background-color: #1e3a8a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
